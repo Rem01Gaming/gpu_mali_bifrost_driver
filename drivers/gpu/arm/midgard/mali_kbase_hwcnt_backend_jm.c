@@ -237,7 +237,6 @@ static int kbasep_hwcnt_backend_jm_dump_enable_nolock(
 	enable.shader_bm = phys.shader_bm;
 	enable.tiler_bm = phys.tiler_bm;
 	enable.mmu_l2_bm = phys.mmu_l2_bm;
-	enable.use_secondary = backend_jm->info->use_secondary;
 	enable.dump_buffer = backend_jm->gpu_dump_va;
 	enable.dump_buffer_bytes = backend_jm->info->dump_bytes;
 

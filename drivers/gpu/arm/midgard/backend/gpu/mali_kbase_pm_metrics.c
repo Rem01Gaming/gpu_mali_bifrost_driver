@@ -350,6 +350,7 @@ u32 kbasep_get_cl_js1_utilization(void)
 KBASE_EXPORT_TEST_API(kbasep_get_cl_js1_utilization)
 #endif /* COMFIG_PROC_FS */
 #endif /* ENABLE_COMMON_DVFS */
+#endif /* CONFIG_MALI_MIGARD_DVFS */
 
 void kbase_pm_get_dvfs_action(struct kbase_device *kbdev)
 {
