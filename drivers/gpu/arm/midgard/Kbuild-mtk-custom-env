@@ -13,6 +13,7 @@ $(info mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY := $(CONFIG_MALI_PLATFORM_THIR
 $(info mtk-Kbuild CONFIG_MALI_PLATFORM_THIRDPARTY_NAME := $(CONFIG_MALI_PLATFORM_THIRDPARTY_NAME))
 
 CONFIG_MALI_DEBUG := n
+CONFIG_MALI_GATOR_SUPPORT := n
 
 ccflags-y += -I-I$(srctree)/include
 ccflags-y += -I$(srctree)/drivers/staging/android
